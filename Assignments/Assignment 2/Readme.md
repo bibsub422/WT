@@ -3,7 +3,8 @@ Deadline on 29th November
 
 
  <br>
- elements used
+ elements used<br>
+ 
    body{
     background-image: url("");
        }
