@@ -1,20 +1,20 @@
-Deadline on 29th November<br>
-elements used<br>
-body{<br>
-    background-image: url("");<br>
+Deadline on 29th November  
+elements used
+body{
+    background-image: url("");
       }
       
       h{ <br>
      
-    font-size: px; <br>
-       color: hex code,hsb,rgb,hsba,colour; <br>
-      -webkit-text-stroke : 2px blue; <br>
-      text-align: center; <br>
-      font-family: Arial, Helvetica, sans-serif; <br>
-      text-decoration-line: underline; <br>
-      margin-right:%; <br>
-      margin-left: %; <br>
-      height: %; <br>
-      width: %  <br>
+    font-size: px; 
+       color: hex code,hsb,rgb,hsba,colour; 
+      -webkit-text-stroke : 2px blue; 
+      text-align: center; 
+      font-family: Arial, Helvetica, sans-serif; 
+      text-decoration-line: underline; 
+      margin-right:%; 
+      margin-left: %; 
+      height: %; 
+      width: %  
       
   }
