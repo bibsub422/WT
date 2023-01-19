@@ -1,0 +1,10 @@
+function validateField(input) {
+    if (input.value === "" || isNaN(input.value)) {
+      input.style.border = "1px solid red";
+      return false;
+    } else {
+      input.style.border = "1px solid green";
+      return true;
+    }
+  }
+  

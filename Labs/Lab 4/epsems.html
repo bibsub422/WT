@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+     
+      #element1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+
+      
+      #element2 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        z-index: 1; 
+      }
+    </style>
+    <script>
+      /
+      function changeCursor() {
+        document.getElementById("element2").style.cursor = "pointer";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="element1"></div>
+    <div id="element2" onmouseover="changeCursor()"></div>
+  </body>
+</html>

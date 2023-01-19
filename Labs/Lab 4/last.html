@@ -1,0 +1,31 @@
+<form id="userForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" required>
+    <br>
+    <label for="country">Country:</label>
+    <input type="text" id="country" required>
+    <br>
+    <button type="submit" onclick="validateForm()">Submit</button>
+  </form>
+  
+  <script>
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var contact = document.getElementById("contact").value;
+    var country = document.getElementById("country").value;
+  
+    if (name && email && contact && country) {
+      alert("Validation successful! Name: " + name + ", Email: " + email + ", Contact Number: " + contact + ", Country: " + country);
+    } else {
+      alert("Please fill out all fields before submitting.");
+    }
+  }
+  </script>
+  

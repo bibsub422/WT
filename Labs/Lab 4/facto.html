@@ -1,0 +1,17 @@
+const button = document.getElementById("calculate-button");
+button.addEventListener("click", function() {
+  const number = prompt("Please enter a number:");
+  const factorial = findFactorial(number);
+  alert("The factorial of " + number + " is " + factorial);
+});
+
+function findFactorial(number) {
+  if (number === 0) {
+    return 1;
+  }
+  let factorial = 1;
+  for (let i = 1; i <= number; i++) {
+    factorial *= i;
+  }
+  return factorial;
+}
